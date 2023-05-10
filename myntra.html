@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/afcc1ebd93.js" crossorigin="anonymous"></script>
+         <title>mytra page</title>
+    <style>
+        #screen{
+            width:100%;
+        }
+        #navbar{
+            width:100%;
+            height:60px;
+            display:flex;
+            justify-content: space-around;
+        }
+        #icon{
+            width:10%;
+            height:100%;
+        }
+        #mytraicon{
+           margin-top: 10px;
+           margin-left: 25%;
+            width:50%;
+            height:60%;
+        }
+        #navi{
+            width:32%;
+            display:flex;
+            justify-content: space-between;
+        }.navisection{
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        #search{
+            width:32%;
+        
+        }
+        #searchbox{
+            
+            background-color: rgb(231, 229, 229);
+            margin-top: 13px;
+            height:35px;
+        }
+        #searchicon{
+            margin-top: 15px;
+            margin-left: 15px;
+        }
+        #searchinput{
+            background-color: rgb(240, 235, 235);
+            margin-top: 10px;
+            margin-left: 15px;
+            border:none;
+            outline :none;
+            color: gray;
+        }
+        #profile{
+            width:15%;
+            
+            display: flex;
+            justify-content: space-between;
+        }
+        #body{
+            width:100%;
+            height:250px;
+            
+        }
+        .text-centre{
+            text-align: center;
+            padding: 10px;
+        }
+        .profileicon{
+            margin-bottom: 0px;
+        }
+        .margin-top-zero{
+             margin-top: 0;
+        }
+    </style>
+</head>
+
+<body>
+   <div id="screen">
+    <div id="navbar">
+          <div id="icon">
+            <img id="mytraicon"src="./myntra icon.jpg"/>
+          </div>
+          <div id="navi">
+            <span class="navisection" >men</span>
+            <span  class="navisection" >women</span>
+            <span  class="navisection" >kids</span>
+            <span  class="navisection" >home</span>
+            <span class="navisection" >beauty</span>
+            <span  class="navisection" >studio</span>
+          </div>
+          <div id="search">
+              <div id="searchbox">
+                <i id="searchicon" class="fa-solid fa-magnifying-glass fa-xl"></i>
+                <input id="searchinput" placeholder="search product"/>
+              </div>
+
+
+          </div>
+          <div id="profile">
+            <div class="text-center">
+                <i  class="fa-regular fa-user fa-lg profileicon"></i> 
+                <p class="margin-top-zero">profile</p>
+            </div>
+            <div class="text-center" >
+                <i class="fa-solid fa-heart fa-lg profileicon"></i>
+                <p class="margin-top-zero">wishlist</p>
+            </div>
+            <div class="text-center">
+                <i class="fa-solid fa-cart-shopping fa-lg profileicon"></i>
+                <p class="margin-top-zero">bag</p>
+            </div>
+          </div>
+    </div>
+     <div id="body">body part</div>
+   </div>
+   
+</body>
+</html>
