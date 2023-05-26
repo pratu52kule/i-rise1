@@ -21,3 +21,6 @@ else if(N>50){
 else{
     console.log("N value is not greator than 50 or 100");
 }
+for(i=1;i<=5;i++){
+    console.log(i);
+}
